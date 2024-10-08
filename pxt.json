@@ -6,7 +6,8 @@
         "game": "*"
     },
     "files": [
-        "main.ts"
+        "main.ts",
+        "README.md"
     ],
     "testFiles": [],
     "supportedTargets": [
