@@ -1,0 +1,17 @@
+{
+    "name": "arcade-fake-button-press",
+    "version": "0.0.1",
+    "description": "",
+    "dependencies": {
+        "game": "*"
+    },
+    "files": [
+        "main.ts"
+    ],
+    "testFiles": [
+    ],
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
