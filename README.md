@@ -1,5 +1,5 @@
 # arcade-fake-button-press
-A MakeCode Arcade extension that let's you programmatically press buttons
+A MakeCode Arcade extension that lets you programmatically press buttons
 
 
 ## Supported targets
