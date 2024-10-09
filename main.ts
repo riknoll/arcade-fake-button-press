@@ -47,4 +47,19 @@ namespace fakeButtons {
     export function releaseMenu() {
         control.raiseEvent(INTERNAL_KEY_UP, 7);
     }
+
+    //% blockId=fakeButtons_setPlayerConnected
+    //% block="set $player connected $connected"
+    //% weight=40
+    export function setPlayerConnected(player: controller.Controller, connected: boolean) {
+        const MULTIPLAYER_PLAYER_JOINED_ID = 3241;
+        const MULTIPLAYER_PLAYER_LEFT_ID = 3242;
+
+        if (connected) {
+            control.raiseEvent(MULTIPLAYER_PLAYER_JOINED_ID, player.playerIndex);
+        }
+        else {
+            control.raiseEvent(MULTIPLAYER_PLAYER_LEFT_ID, player.playerIndex);
+        }
+    }
 }
